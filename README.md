@@ -19,9 +19,6 @@ redirectURL=<YOUR_REDIRECT_URL>
 boardId=<MIRO_BOARD_ID>
 ```
 
-In this example, we will host our local environment over `HTTPS` using [Localtunnel](https://www.npmjs.com/package/localtunnel).\
-(You can use other services such as [ngrok](https://ngrok.com/download) as well.)
-
 - Install [ngrok](https://ngrok.com/).
 - Generate your HTTPS URL for localhost.
 - Copy this HTTPS URL and paste it in the `Redirect URI for OAuth2.0` box in your Miro app settings.
