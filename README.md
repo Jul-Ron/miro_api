@@ -3,7 +3,7 @@
 ### Prerequisites
 
 - [Create a new app in Miro](https://miro.com/app/settings/user-profile/apps).
-- Install [Localtunnel](https://www.npmjs.com/package/localtunnel) or a similar tool, such as [ngrok](https://ngrok.com/).
+- Install [ngrok](https://ngrok.com/).
 
 ### How to start
 
@@ -22,8 +22,8 @@ boardId=<MIRO_BOARD_ID>
 In this example, we will host our local environment over `HTTPS` using [Localtunnel](https://www.npmjs.com/package/localtunnel).\
 (You can use other services such as [ngrok](https://ngrok.com/download) as well.)
 
-- Install [localtunnel](https://www.npmjs.com/package/localtunnel) (or your preferred service).
-- Generate your HTTPS URL (if using localtunnel, `lt --port 3000`) for localhost.
+- Install [ngrok](https://ngrok.com/).
+- Generate your HTTPS URL for localhost.
 - Copy this HTTPS URL and paste it in the `Redirect URI for OAuth2.0` box in your Miro app settings.
 - Paste this same HTTPS URL into your `.env` file `redirectURL` variable (above).
 - From your desired Miro board, grab the board ID from the URL and paste it into your `.env` file `boardId` variable (above).
